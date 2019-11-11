@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slideshow Gallery</title>
+	<link href="css/slideshow.css" rel="stylesheet" type="text/css"/>
+	<script src="js/slideshow.js"></script>
+</head>
+<body onload="currentSlide(1)">
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="./pic/iced_espresso.jpg" style="width:100%; height: 500px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="./pic/iced_latte.jpg" style="width:100%; height: 500px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="./pic/iced_mocha.jpg" style="width:100%; height: 500px;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="./pic/iced_cappuccino.jpg" style="width:100%; height: 500px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="./pic/hot_mocha.jpg" style="width:100%; height: 500px;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="./pic/hot_americano.jpg" style="width:100%; height: 500px;">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="./pic/iced_espresso.jpg" style="width:100%" onclick="currentSlide(1)" alt="Iced Espresso">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./pic/iced_latte.jpg" style="width:100%" onclick="currentSlide(2)" alt="Iced Latte">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./pic/iced_mocha.jpg" style="width:100%" onclick="currentSlide(3)" alt="Iced Mocha">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./pic/iced_cappuccino.jpg" style="width:100%" onclick="currentSlide(4)" alt="Iced Cappuccino">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./pic/hot_mocha.jpg" style="width:100%" onclick="currentSlide(5)" alt="Hot Mocha">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="./pic/hot_americano.jpg" style="width:100%" onclick="currentSlide(6)" alt="Hot Americano">
+    </div>
+  </div>
+</div>
+</body>
+</html>

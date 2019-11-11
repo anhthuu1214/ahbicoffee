@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Ahbi Coffee</title>
+	<meta charset="UTF-8"></meta>
+	<link href="css/general.css" rel="stylesheet" type="text/css" />
+	<link href="css/slideshow.css" rel="stylesheet" type="text/css"/>
+	<script src="js/slideshow.js"></script>
+</head>
+<style>
+	.bg
+	{
+		background-image: url('./pic/coffee-banner.jpeg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+</style>
+<body onload="currentSlide(1)">
+	<header class="bg">
+		<div style="width: 100%; height: 500px;">
+			<nav>
+				<details>
+					<summary style="font-style: bold; font-size: 25pt;">Menu</summary>
+					<a href="index.html" style="text-decoration: none; color: #EAA769;">&#127978;Home</a> <br>
+					<a href="ourstory.html" style="text-decoration: none; color: #EAA769;">&#9997;&#127995;Our Story</a> <br>
+					<a href="coffeeshop.html" style="text-decoration: none; color: #EAA769;">&#9749;Coffee Shop</a> <br>
+					<a href="location.html" style="text-decoration: none; color: #EAA769;">&#10024;Location</a> <br>
+				</details>
+			</nav>
+			<aside>
+				<hr color="#EAA769" width="30%" style="margin-top: 50px; margin-left: 30%;">
+				<p style="color: white; text-align: center; font-family: Courier New; font-size: 50pt; text-shadow: 2px 4px #EAA769; margin: 40px 0;"><em>&#119964;&#120101;&#120095;&#120102; &#119966;&#119978;&#10765;&#10765;&#8496;&#8496;</em></p>
+				<hr color="#EAA769" width="30%" style="margin-left: 30%;">
+				<marquee scrollamount="20" direction="up" behavior="slide"><h2 style="color: white; margin-left: 20px; font-family: Comic Sans MS; text-align: center; text-shadow: 2px 2px #EAA769;">Start your day <br> with a cup of <strong>Coffee</strong</h2></marquee>
+			</aside>
+		</div>
+	</header>
+	<content>
+		<div style="background-color: #BF7E49;">
+			<marquee direction="down" behavior="slide" style="font-size: 40pt; color: white; text-align: center;">New Drinks</marquee>
+			<div class="container">
+			  <div class="mySlides">
+				<div class="numbertext">1 / 6</div>
+				<img src="./pic/iced_espresso.jpg" style="width:100%; height: 600px;">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">2 / 6</div>
+				<img src="./pic/iced_latte.jpg" style="width:100%; height: 600px;">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">3 / 6</div>
+				<img src="./pic/iced_mocha.jpg" style="width:100%; height: 600px;">
+			  </div>
+				
+			  <div class="mySlides">
+				<div class="numbertext">4 / 6</div>
+				<img src="./pic/iced_cappuccino.jpg" style="width:100%; height: 600px;">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">5 / 6</div>
+				<img src="./pic/hot_mocha.jpg" style="width:100%; height: 600px;">
+			  </div>
+				
+			  <div class="mySlides">
+				<div class="numbertext">6 / 6</div>
+				<img src="./pic/hot_americano.jpg" style="width:100%; height: 600px;">
+			  </div>
+				
+			  <a class="prev" onclick="plusSlides(-1)">❮</a>
+			  <a class="next" onclick="plusSlides(1)">❯</a>
+
+			  <div class="caption-container">
+				<p id="caption"></p>
+			  </div>
+
+			  <div class="row">
+				<div class="column">
+				  <img class="demo cursor" src="./pic/iced_espresso.jpg" style="width:100%" onclick="currentSlide(1)" alt="Iced Espresso">
+				</div>
+				<div class="column">
+				  <img class="demo cursor" src="./pic/iced_latte.jpg" style="width:100%" onclick="currentSlide(2)" alt="Iced Latte">
+				</div>
+				<div class="column">
+				  <img class="demo cursor" src="./pic/iced_mocha.jpg" style="width:100%" onclick="currentSlide(3)" alt="Iced Mocha">
+				</div>
+				<div class="column">
+				  <img class="demo cursor" src="./pic/iced_cappuccino.jpg" style="width:100%" onclick="currentSlide(4)" alt="Iced Cappuccino">
+				</div>
+				<div class="column">
+				  <img class="demo cursor" src="./pic/hot_mocha.jpg" style="width:100%" onclick="currentSlide(5)" alt="Hot Mocha">
+				</div>    
+				<div class="column">
+				  <img class="demo cursor" src="./pic/hot_americano.jpg" style="width:100%" onclick="currentSlide(6)" alt="Hot Americano">
+				</div>
+			  </div>
+			</div>
+		</div>
+	</content>
+</body>
+</html>

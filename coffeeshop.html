@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffee Shop</title>
+	<meta charset="UTF-8"></meta>
+	<link href="css/general.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="css/coffeeshop.css"/>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<style>
+	.bg
+	{
+		background-image: url('./pic/coffeebanner.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	</style>
+</head>
+<body>
+<header class="bg">
+	<div style="width: 100%; height: 500px;">
+		<nav>
+				<details>
+					<summary style="font-style: bold; font-size: 25pt;">Menu</summary>
+					<a href="index.html" style="text-decoration: none; color: #EAA769;">&#127978;Home</a> <br>
+					<a href="ourstory.html" style="text-decoration: none; color: #EAA769;">&#9997;&#127995;Our Story</a> <br>
+					<a href="coffeeshop.html" style="text-decoration: none; color: #EAA769;">&#9749;Coffee Shop</a> <br>
+					<a href="location.html" style="text-decoration: none; color: #EAA769;">&#10024;Location</a> <br>
+				</details>
+			</nav>
+		<aside style="margin: 50px 0 0 50px">
+			<marquee scrollamount="50" behavior="slide">
+				<p style="color: white; text-align: center; font-family: Courier New; font-size: 60pt; text-shadow: 2px 4px #EAA769;"><em>&#119964;&#120101;&#120095;&#120102; &#119966;&#119978;&#10765;&#10765;&#8496;&#8496;</em></p>
+				<br>
+				<hr color="white" width="40%"  style="margin-left: 30%">
+			</marquee>
+		</aside>
+	</div>
+</header>
+<content>
+	<div style="background-color: #BF7E49;">
+		<marquee direction="down" behavior="slide" style="font-size: 40pt; color: white; text-align: center;">Coffee Shop</marquee>
+	</div>
+	<div class="Study-tab">
+		<div class="Study-tab-list">
+		  <p class="js-studyitem Study-tab-list-item Study-tab-list-item-active">Americano</p>
+		  <p class="js-studyitem Study-tab-list-item">Cappuccino</p>
+		  <p class="js-studyitem Study-tab-list-item">Chocolate</p>
+		  <p class="js-studyitem Study-tab-list-item">Espresso</p>
+		  <p class="js-studyitem Study-tab-list-item">Latte</p>
+		  <p class="js-studyitem Study-tab-list-item">Mocha</p>
+		  <p class="js-studyitem Study-tab-list-item">Soda</p>
+		</div>
+	</div>
+	<div class="Study-body">
+		<div class="js-studylist Study-list">
+			<div class="js-studycontent Study-content" data-index="0">
+				<div class="Study-content-detail">
+				  <img src="pic/hot_americano.jpg">
+				  <p>Hot Americano</p>
+				</div>
+				<div class="Study-content-detail">
+				  <img src="pic/cold_americano.jpg">
+				  <p>Cold Americano</p>
+				</div>
+			</div>
+			<div class="js-studycontent Study-content" data-index="1">
+				<div class="Study-content-detail">
+				  <img src="pic/hot_cappuccino.jpg">
+				  <p>Hot Cappuccino</p>
+				</div>
+				<div class="Study-content-detail">
+				  <img src="pic/iced_cappuccino.jpg">
+				  <p>Iced Cappuccino</p>
+				</div>
+			</div>
+			<div class="js-studycontent Study-content" data-index="2">
+				<div class="Study-content-detail">
+				  <img src="pic/hot_chocolate.jpg">
+				  <p>Hot Chocolate</p>
+				</div>
+				<div class="Study-content-detail">
+				  <img src="pic/iced_chocolate.jpg">
+				  <p>Iced Chocolate</p>
+				</div>
+			</div>
+			<div class="js-studycontent Study-content" data-index="3">
+				<div class="Study-content-detail">
+				  <img src="pic/hot_espresso.jpg">
+				  <p>Hot Espresso</p>
+				</div>
+				<div class="Study-content-detail">
+				  <img src="pic/iced_espresso.jpg">
+				  <p>Iced Espresso</p>
+				</div>
+			</div>
+			<div class="js-studycontent Study-content" data-index="4">
+				<div class="Study-content-detail">
+				  <img src="pic/hot_latte.jpg">
+				  <p>Hot Latte</p>
+				</div>
+				<div class="Study-content-detail">
+				  <img src="pic/iced_latte.jpg">
+				  <p>Iced Latte</p>
+				</div>
+			</div>
+			<div class="js-studycontent Study-content" data-index="5">
+				<div class="Study-content-detail">
+				  <img src="pic/hot_mocha.jpg">
+				  <p>Hot Mocha</p>
+				</div>
+				<div class="Study-content-detail">
+				  <img src="pic/iced_mocha.jpg">
+				  <p>Iced Mocha</p>
+				</div>
+			</div>
+			<div class="js-studycontent Study-content" data-index="6">
+				<div class="Study-content-detail">
+				  <img src="pic/blue_soda.jpg">
+				  <p>Blue Soda</p>
+				</div>
+				<div class="Study-content-detail">
+				  <img src="pic/darkgrapes_soda.jpg">
+				  <p>Dark Grapes Soda</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</content>
+  <script src="js/coffeeshop.js"></script>
+</body>
+</html>
